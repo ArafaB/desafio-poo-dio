@@ -5,19 +5,19 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args) {
         Curso curso1 = new Curso();
-        curso1.setTitulo("curso java");
-        curso1.setDescricao("descricao curso java");
+        curso1.setTitulo("Curso Java");
+        curso1.setDescricao("Descricao Curso Java");
         curso1.setCargaHoraria(8);
 
         Curso curso2 =  new Curso();
-        curso2.setTitulo("curso js");
-        curso2.setDescricao("descricao curso js");
+        curso2.setTitulo("Curso Java Script");
+        curso2.setDescricao("Descricao Curso Java Script");
         curso2.setCargaHoraria(4);
 
 
         Mentoria mentoria = new Mentoria();
-        mentoria.setTitulo("mentoria de java");
-        mentoria.setDescricao("descricao mentoria java");
+        mentoria.setTitulo("Mentoria de Java");
+        mentoria.setDescricao("Descricao Mentoria Java");
         mentoria.setData(LocalDate.now());
 
        /*System.out.println(curso1);
